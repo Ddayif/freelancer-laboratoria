@@ -4,29 +4,95 @@
 
  body{
  	margin: 0;
- 	font-family: 'Raleway', sans-serif;
+ 	font-family: 'Montserrat', sans-serif;
  }
-nav{
-	position: fixed;
-	width: 100%;
-	background-color: #473E71;
-	color: white;
-	z-index: 1000;
-}
+
+ /**************Aca comienza mi navegador***************/
+ nav{
+ 	position: fixed;
+ 	width: 100%;
+ 	background-color: #1D264B;
+ 	color: white;
+ 	z-index: 1000;
+ 	font-size: 15px;
+ }
 
  nav ul li{
  	list-style: none;
- 	text-align: center;
+ 	text-align: right;
  }
 
  nav ul li a{
  	text-decoration: none;
  	color: white;
+ 	font-size: 10px;
  }
 
 
-#seccion{
+
+
+
+ /************Aca comienza mi seccion start bootstrap***********/
+ #seccion{
+ 	background-color: #00B2A9;
+ 	padding: 100px 0;
+ 	text-align: center;
+ }
+
+ .start{
+ 	font-size: 65px;
+ 	color: white;
+
+ }
+
+ .imagen{
+ 	padding-top: 80px;
+ }
+
+ .linea{
+ 	position: relative;
+ 	border-left: none;
+ 	border-top: none;
+ 	border-right: none;
+ 	border-bottom: #070707;
+ }
+
+ .especialidades{
+ 	color: white;
+ 	font-size: 20px;
+ }
+
+
+
+ /*************Aca comienza mi seccion portfolio***************/
+ .section-portfolio{
+ 	text-align: center;
+ 	font-size: 30px;
+ 	padding: 25px 0;
+ }
+
+ .container-image{
+ 	width: 100%;
+ 	margin: 10px 20px;
+ }
+
+ .container-image img{
+ 	width: 50%;
+ }
+
+ /*******Aca comienza a seccion about*********/
+
+.about-container{
 	background-color: #00B2A9;
+	color: white;
 	padding: 100px 0;
 	text-align: center;
+}
+ .about{
+ 	font-size: 30px;
+ 	padding: 25px 0;
+}
+
+.about-uno{
+	text-align: left;
 }
