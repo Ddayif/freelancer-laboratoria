@@ -49,12 +49,13 @@
  	padding-top: 80px;
  }
 
- .linea{
- 	position: relative;
- 	border-left: none;
- 	border-top: none;
- 	border-right: none;
- 	border-bottom: #070707;
+ .linea{/* Intente poner la linea para pode poner encima la estrella pero no me funciono*/
+ 	padding: 0;
+ 	border: none;
+ 	border-top: solid 5px;
+ 	text-align: center;
+ 	max-width: 250px;
+ 	margin: 25px auto 30px
  }
 
  .especialidades{
@@ -80,19 +81,32 @@
  	width: 50%;
  }
 
- /*******Aca comienza a seccion about*********/
+ /*******Aca comienza la seccion about*********/
 
-.about-container{
-	background-color: #00B2A9;
-	color: white;
-	padding: 100px 0;
-	text-align: center;
-}
+ .about-container{
+ 	background-color: #00B2A9;
+ 	color: white;
+ 	padding: 100px 0;
+ 	text-align: center;
+ }
  .about{
  	font-size: 30px;
  	padding: 25px 0;
-}
+ }
 
-.about-uno{
-	text-align: left;
-}
+ .about-uno{
+ 	text-align: left;
+ }
+
+ /**********Aca cmienza la seccion contact me***********/
+
+ .contact-container{
+ 	padding: 100px 0;	
+ }
+
+ .contact-me{
+ 	text-align: center;
+ 	font-size: 30px;
+ 	padding: 25px 0;
+ }
+
