@@ -2,67 +2,101 @@
  * Estilos de tu proyecto
  */
 
- body{
+body{
  	margin: 0;
  	font-family: 'Montserrat', sans-serif;
- }
+}
 
- /**************Aca comienza mi navegador***************/
- nav{
+/**************Aca comienza mi navegador***************/
+nav{
  	position: fixed;
  	width: 100%;
- 	background-color: #1D264B;
+ 	background-color: #2C3E50;
  	color: white;
  	z-index: 1000;
  	font-size: 15px;
- }
+}
 
- nav ul li{
+nav ul li{
  	list-style: none;
  	text-align: right;
- }
+}
 
- nav ul li a{
+nav ul li a{
  	text-decoration: none;
  	color: white;
  	font-size: 10px;
- }
+ 	padding: 10px 0;
+ 	font-size: 12px;
+}
 
 
 
 
 
  /************Aca comienza mi seccion start bootstrap***********/
- #seccion{
- 	background-color: #00B2A9;
+#seccion{
+ 	background-color: #18bc9c;
  	padding: 100px 0;
  	text-align: center;
- }
+}
 
- .start{
+.start{
  	font-size: 65px;
  	color: white;
+}
 
- }
-
- .imagen{
+.imagen{
  	padding-top: 80px;
- }
+}
 
- .linea{/* Intente poner la linea para pode poner encima la estrella pero no me funciono*/
- 	padding: 0;
- 	border: none;
- 	border-top: solid 5px;
- 	text-align: center;
- 	max-width: 250px;
- 	margin: 25px auto 30px
- }
+.fa-star-blanca{
+	position: relative;
+    color: white;
+    font-size: 20px;
+    bottom: 46px;
+}
+
+
+
+.linea-1{
+	     margin-left: 488px;
+	 font-weight: bolder;
+}	
+
+.linea-2{
+	margin-left: 148px;
+    margin-top: -17px;
+}
+
+.negro-1{
+	margin-left: 488px;
+	font-weight: bolder;
+	color: black;
+}
+
+.negro-2{
+	margin-left: 148px;
+    margin-top: -17px;
+    color: black;
+}
+
+.estrella{
+	color: black;
+    position: relative;
+    bottom: 49px;
+    font-size: 20px;
+    padding-left: 655px;
+}
 
  .especialidades{
  	color: white;
  	font-size: 20px;
  }
 
+hr{
+	    width: 118px;
+}
 
 
  /*************Aca comienza mi seccion portfolio***************/
@@ -84,7 +118,7 @@
  /*******Aca comienza la seccion about*********/
 
  .about-container{
- 	background-color: #00B2A9;
+ 	background-color: #18bc9c;
  	color: white;
  	padding: 100px 0;
  	text-align: center;
@@ -94,9 +128,36 @@
  	padding: 25px 0;
  }
 
- .about-uno{
+ .abouts{
  	text-align: left;
+ 	font-size: 20px;
+ 	margin-top: 30px;
  }
+
+.uno{
+	margin-left: 238px;
+}
+
+
+.btn-mio{ /*Da diseno y color al boton*/
+
+	width: 230px;
+	left: 900px;
+	bottom: 165px;
+	height: 50px;
+	background-color: transparent;
+	border-radius: 1px;
+	border-color: whitesmoke;
+	color: white;
+	font-size: 20px;
+}
+
+.fa-descarga{
+	position: relative;
+    color: white;
+    font-size: 20px;
+    padding-right: 10px;
+}
 
  /**********Aca cmienza la seccion contact me***********/
 
@@ -110,3 +171,50 @@
  	padding: 25px 0;
  }
 
+
+
+.inputs{
+	width: 80%;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	position: relative;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #eee;
+    font-size: 1.5em;
+}
+
+.name{
+	border-right: none;
+	border-left: none;
+	width: 80%;	
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+	position: relative;
+	font-size: 1.5em;
+	margin-bottom: 0;
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+
+.message{
+	padding-bottom: 6em;
+}
+
+
+.input-mio{
+	margin-left: 291px;
+	color: #9d9d9d;
+
+}
+
+.btn-mio-2{
+    color: #fff;
+    background-color: #18BC9C;
+    border-color: #18BC9C;
+    font-weight: 700;
+    width: 83px;
+    height: 45px;
+    border-radius: 15px;
+}
